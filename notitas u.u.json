@@ -1,0 +1,80 @@
+{
+    "name": "notitas u.u",
+    "request": {
+        "method": "POST",
+        "header": [
+            {
+                "key": "Referer",
+                "value": "https://campusvirtual.upao.edu.pe/aulavirtual.aspx?f=YADEAUC&r=D",
+                "type": "text"
+            },
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+                "type": "text"
+            },
+            {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded",
+                "type": "text"
+            },
+            {
+                "key": "Cookie",
+                "value": "ASP.NET_SessionId=ogikbi0gulg1qguke15jfavv; AuthCookie=BE9C141F40F611362DA7BCD312C947EA99882E1C043083A189D47A7A05EDF2AA3E193EB87C9D414E44F1551491CA1B2C98E63B7A430711B1AE45ACD43E7916E95E292984CBD249387156080024189CF3EC3C33D3C8D16BA5683D6F32A3818F63D1F61B48D48B3D3D8891DA172C1EF6C183F1FE42AF12128B2FC2651D9FA243434A8FC43A1087B5C8841E04AF4140BA352C16FEC3AB4FCEABB67ED4736A6F214A; comuconf=tema=inicial&ancho=984",
+                "type": "text"
+            }
+        ],
+        "body": {
+            "mode": "urlencoded",
+            "urlencoded": [
+                {
+                    "key": "prd",
+                    "value": "202310",
+                    "type": "text"
+                },
+                {
+                    "key": "nrc",
+                    "value": "4314",
+                    "type": "text"
+                },
+                {
+                    "key": "subj",
+                    "value": "ICSI",
+                    "type": "text"
+                },
+                {
+                    "key": "crse",
+                    "value": "524",
+                    "type": "text"
+                },
+                {
+                    "key": "majr",
+                    "value": "ICSI",
+                    "type": "text"
+                },
+                {
+                    "key": "id",
+                    "value": "jjaraa1",
+                    "type": "text"
+                }
+            ]
+        },
+        "url": {
+            "raw": "https://campusvirtual.upao.edu.pe/vistas/ashx/ya/YADEAUC_GET_ACTA_NOTAS.ashx",
+            "protocol": "https",
+            "host": [
+                "campusvirtual",
+                "upao",
+                "edu",
+                "pe"
+            ],
+            "path": [
+                "vistas",
+                "ashx",
+                "ya",
+                "YADEAUC_GET_ACTA_NOTAS.ashx"
+            ]
+        }
+    },
+    "response": []
+}
